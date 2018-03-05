@@ -1,0 +1,47 @@
+@import "base/typography";
+.rad{
+  float: left;
+  position: relative;
+}.row {
+  border: 1px solid red;
+.raw{
+  background-color: #f5f5f5;
+
+}}
+ img{
+   max-width: 100%;
+ }
+ .grey{
+   background: red;
+ }
+.menu{
+  ul {
+    list-style: none; }
+  li {
+    float: left;
+    position: relative; }
+  ul {
+    li{
+      a {
+        font-size: 28px;
+        font-family: MyriadPro; }
+      a.active {
+        color: #0096d5; }
+  ul {
+    display: none; }
+      }
+ li:hover ul {
+  display: inline-block;
+  position: absolute;
+  top: 20px;
+  left: 0;
+    }
+  }
+
+}
+.lan{
+  ul{li{
+    list-style: none;
+  }
+  }
+}

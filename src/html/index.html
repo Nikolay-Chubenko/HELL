@@ -1,0 +1,78 @@
+{#
+  Nunjucks Templating!
+  Homepage: https://mozilla.github.io/nunjucks/
+  Docs: https://mozilla.github.io/nunjucks/api.html
+#}
+
+{% extends 'layouts/application.html' %}
+
+{% block content %}
+<link rel="stylesheet" href="stylesheets/bootstrap.css">
+<div class="container-fluid">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12">
+                <div class="row">
+                    <div class="col-lg-3">
+                        <div class="logo">
+                            <a href="/"><img src="../images/logo.png" alt=""></a>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 offset-lg-5">
+                        <span>
+                            <a href="/"><img src="../images/writy_my.jpg" alt=""></a>
+                            <a href="#">Написать нам</a>
+                        </span>
+                        <span>
+                            <div class="lan">
+                                <ul>
+                                    <li><a href="#" class="active">UA</a></li>
+                                    <li><a href="#">RU</a></li>
+                                </ul>
+                            </div>
+                        </span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-12">
+                <div class="menu">
+                    <ul>
+                        <li><a href="#">HELL в Украине</a></li>
+                        <li><a href="#">HELL в мире</a></li>
+                        <li><a href="#" class="active">Продукция</a></li>
+                        <li><a href="#">Обучения</a></li>
+                        <li><a href="#">Новости</a></li>
+                        <li><a href="#">Фармоконадзор</a></li>
+                        <li><a href="#">Контакти</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-lg-12">
+                <a href="/"><img src="../images/picture.jpg" alt=""></a>
+            </div>
+            <div class="col-lg-12">
+                <div>«Биологише Хальмиттель Хеель ГмбХ» (далее «Хеель») - один из лидеров производства комплексных гомеопатических препаратов,
+                    с предприятиями по всему миру.</div>
+            </div>
+
+        </div>
+    </div>
+    <div class="grey">
+        <div class="container">
+            <div class="col-lg-12">
+                <div class="row">
+                    <div class="col-lg-6">
+                        <a href="/"><img src="../images/Producia.jpg" alt=""></a>
+                    </div>
+                    <div class="col-lg-6">
+                        <a href="/"><img src="../images/ob_spec.jpg" alt=""></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+{% endblock %}
