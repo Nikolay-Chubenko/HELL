@@ -1,5 +1,4 @@
-(function( $ ) {
-}
-$('.red').click(function(){
-    $(this).css('color', 'red');
-})
+$(document).ready(function(){
+    $('.slider').bxSlider();
+    $('.red').click();
+});
